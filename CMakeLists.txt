@@ -19,6 +19,7 @@ include(GNUInstallDirs)
 
 set(QT_MIN_VERSION "5.6.0")
 find_package(Qt5 ${QT_MIN_VERSION} COMPONENTS Gui Quick Positioning Sql Svg REQUIRED)
+# QMapLibreGL and mbgl-vendor-icu
 find_package(QMapLibreGL REQUIRED)
 
 if(USE_CURL_SSL)

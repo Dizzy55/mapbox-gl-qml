@@ -26,7 +26,8 @@ BuildRequires: qt5-qtbase-devel
 %if 0%{?suse_version} >= 1500
 BuildRequires: libqt5-qtbase-devel
 %endif
-BuildRequires: qmaplibregl-devel >= 0.220826.0
+# Build fix
+# BuildRequires: qmaplibregl-devel >= 0.220826.0
 
 %description
 QML plugin for Maplibre GL Native, Mapbox GL Native fork.

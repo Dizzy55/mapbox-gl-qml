@@ -36,7 +36,9 @@ target_link_libraries(qmlmapboxglplugin PRIVATE
 	Qt5::Positioning
 	Qt5::Sql
         Qt5::Svg
-	QMapLibreGL)
+	QMapLibreGL
+	mbgl-vendor-icu
+)
 
 if(USE_CURL_SSL)
 	add_definitions(-DUSE_CURL_SSL=1)
